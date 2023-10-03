@@ -57,7 +57,9 @@ function updateTasks() {
         }
     });
 
-   
+    
+}
+
 function drag(event) {
     event.dataTransfer.setData('taskId', event.target.getAttribute('data-task-id'));
 }
